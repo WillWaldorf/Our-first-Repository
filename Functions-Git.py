@@ -50,3 +50,13 @@ print_number(90)
 print_number('\n'+"Hello World ")
 
 
+# 4.14.4: Name and Age
+# Will Waldorf
+# 2.18.19
+def name_and_age(name, age):
+    print('\n' 'Hi, my name is', name + ' and I am ', str(age), 'years old. ')
+
+
+name_and_age('Willy', 99)
+name_and_age('Greg', 1)
+name_and_age('Mr Beast', 25)
