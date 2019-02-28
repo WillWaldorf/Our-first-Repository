@@ -52,7 +52,16 @@ print_number('\n'+"Hello World ")q
 
 # 4.14.4: Name and Age
 # Will Waldorf
-# 2.18.19
+# 2.18.19# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
+
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_mutiple_times('Hey good looking', 7)
+
 def name_and_age(name, age):
     print('\n' 'Hi, my name is', name + ' and I am ', str(age), 'years old. ')
 
@@ -71,3 +80,14 @@ def print_two_numbers_(x, y = 20):
 
 print_two_numbers_(5, 88)
 print_two_numbers_(23)
+
+# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
+
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_mutiple_times('Hey good looking', 7)
+
