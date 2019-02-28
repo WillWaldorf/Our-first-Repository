@@ -47,7 +47,7 @@ def print_number(x):
 
 
 print_number(90)
-print_number('\n'+"Hello World ")
+print_number('\n'+"Hello World ")q
 
 
 # 4.14.4: Name and Age
@@ -60,3 +60,14 @@ def name_and_age(name, age):
 name_and_age('Willy', 99)
 name_and_age('Greg', 1)
 name_and_age('Mr Beast', 25)
+
+# 4.14.5: Default Parameter Values
+# 2.19.19
+# Will Waldorf
+
+def print_two_numbers_(x, y = 20):
+    print('First number: ', x)
+    print('Second number: ', y)
+
+print_two_numbers_(5, 88)
+print_two_numbers_(23)
