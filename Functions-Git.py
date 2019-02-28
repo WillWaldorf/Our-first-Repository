@@ -75,11 +75,38 @@ name_and_age('Mr Beast', 25)
 # Will Waldorf
 
 def print_two_numbers_(x, y = 20):
-    print('First number: ', x)
+    print('First num# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
+# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
+
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_mutiple_times('Hey good looking', 7)
+
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_mutiple_times('Hey good looking', 7)
+ber: ', x)
     print('Second number: ', y)
 
 print_two_numbers_(5, 88)
-print_two_numbers_(23)
+print_two_numbers_(23)# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
+
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_mutiple_times('Hey good looking', 7)
+
 
 # 4.14.7: Print mutiple times
 # Will Waldorf
