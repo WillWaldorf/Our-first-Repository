@@ -97,7 +97,8 @@ ber: ', x)
     print('Second number: ', y)
 
 print_two_numbers_(5, 88)
-print_two_numbers_(23)# 4.14.7: Print mutiple times
+print_two_numbers_(23)
+          # 4.14.7: Print mutiple times
 # Will Waldorf
 # 2.19.19
 
