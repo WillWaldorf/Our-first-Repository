@@ -56,9 +56,42 @@ print_number('\n'+"Hello World ")q
 # Will Waldorf
 # 2.19.19
 
-def print_mutiple_times(string, times):
+def print_mutiple_times(string, times):# 4.16.3: Enter a number
+# Will Waldorf
+# 2.20.19
+
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ', str(my_number))
+
+except ValueError:
+    print('That was not an integer')
+
     for i in range(times):
-        print(string)
+        print(string)# 4.16.3: Enter a number
+# Will Waldorf
+# 2.20.19
+# 4.16.3: Enter a number
+# Will Waldorf
+# 2.20.19
+
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ', str(my_number))
+
+except ValueError:
+    print('That was not an integer')
+
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ', str(my_number))
+
+except ValueError:
+    print('That was not an integer')
+
 
 print_mutiple_times('Hey good looking', 7)
 
@@ -119,5 +152,14 @@ def print_mutiple_times(string, times):
 
 print_mutiple_times('Hey good looking', 7)
 
-#something different
-#more different
+# 4.16.3: Enter a number
+# Will Waldorf
+# 2.20.19
+
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ', str(my_number))
+
+except ValueError:
+    print('That was not an integer')
