@@ -119,5 +119,31 @@ def print_mutiple_times(string, times):
 
 print_mutiple_times('Hey good looking', 7)
 
-#something different
-#more different
+
+# 4.16.3: Enter a number
+# Will Waldorf
+# 2.20.19
+
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ', str(my_number))
+
+except ValueError:
+    print('That was not an integer')
+
+# 4.16.4: Enter Name and Age
+# William Waldorf
+# 2.20.19
+
+name = input('What is your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('That was not a valid age')
+
+print('\n''Name: ', name)
+print('Age: ', age)
