@@ -121,3 +121,23 @@ print_mutiple_times('Hey good looking', 7)
 
 #something different
 #more different
+
+          # 4.16.6: Temperature Converter
+# William Waldorf
+# 2.20.19
+
+def celsius_to_fahrenheit(celsius):
+    return celsius * 1.8 + 32
+
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit -32) / 1.8
+
+try:
+    c = float(input('Enter a temp in C: '))
+    print('In F: ', round(celsius_to_fahrenheit(c), 2))
+
+    f = float(input('Enter a temp in F: '))
+    print('In C: ', round(fahrenheit_to_celsius(f), 2))
+
+except ValueError:
+    print('You must enter a float')
