@@ -144,3 +144,21 @@ def name_and_age(name, age):
 name_and_age('Willy', 99)
 name_and_age('Greg', 1)
 name_and_age('Mr Beast', 25)
+
+# 4.16.7: Enter a positive number
+# Will Waldorf
+# 2.21.19
+
+def retrieve_postive_number():
+    while True:
+        try:
+            number = int(input('Enter a positive number: '))
+            if number >= 0:
+                return number
+            else:
+                print('That number was not positive')
+
+        except ValueError:
+            print('That was not a number, silly.')
+
+retrieve_postive_number()
