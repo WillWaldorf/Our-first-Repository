@@ -110,8 +110,11 @@ def print_mutiple_times(string, times):
 
 print_mutiple_times('Hey good looking', 7)
 
+<<<<<<< HEAD
 #something different
 #more different
+=======
+>>>>>>> Enter-Name-and-Age
 
 # 4.16.3: Enter a number
 # Will Waldorf
@@ -125,11 +128,15 @@ try:
 except ValueError:
     print('That was not an integer')
 
+<<<<<<< HEAD
 # 4.14.4: Name and Age
 # Will Waldorf
 # 2.18.19# 4.14.7: Print mutiple times
 # Will Waldorf
 # 2.19.19
+=======
+<<<<<<< HEAD
+>>>>>>> test-master
 
 def print_mutiple_times(string, times):
     for i in range(times):
@@ -149,6 +156,7 @@ name_and_age('Mr Beast', 25)
 # Will Waldorf
 # 2.21.19
 
+<<<<<<< HEAD
 def retrieve_postive_number():
     while True:
         try:
@@ -162,3 +170,24 @@ def retrieve_postive_number():
             print('That was not a number, silly.')
 
 retrieve_postive_number()
+=======
+except ValueError:
+    print('You must enter a float')
+=======
+# 4.16.4: Enter Name and Age
+# William Waldorf
+# 2.20.19
+
+name = input('What is your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('That was not a valid age')
+
+print('\n''Name: ', name)
+print('Age: ', age)
+>>>>>>> Enter-Name-and-Age
+>>>>>>> test-master
