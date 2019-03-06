@@ -125,23 +125,22 @@ try:
 except ValueError:
     print('That was not an integer')
 
+# 4.14.4: Name and Age
+# Will Waldorf
+# 2.18.19# 4.14.7: Print mutiple times
+# Will Waldorf
+# 2.19.19
 
-# 4.16.6: Temperature Converter
-# William Waldorf
-# 2.20.19
+def print_mutiple_times(string, times):
+    for i in range(times):
+        print(string)
 
-def celsius_to_fahrenheit(celsius):
-    return celsius * 1.8 + 32
+print_mutiple_times('Hey good looking', 7)
 
-def fahrenheit_to_celsius(fahrenheit):
-    return (fahrenheit -32) / 1.8
+def name_and_age(name, age):
+    print('\n' 'Hi, my name is', name + ' and I am ', str(age), 'years old. ')
 
-try:
-    c = float(input('Enter a temp in C: '))
-    print('In F: ', round(celsius_to_fahrenheit(c), 2))
 
-    f = float(input('Enter a temp in F: '))
-    print('In C: ', round(fahrenheit_to_celsius(f), 2))
-
-except ValueError:
-    print('You must enter a float')
+name_and_age('Willy', 99)
+name_and_age('Greg', 1)
+name_and_age('Mr Beast', 25)
